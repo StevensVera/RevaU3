@@ -11,20 +11,28 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.stevensvera.revaluacionu3.Transacciones">
 
+    <TextView
+        android:text="Descripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editText" />
+
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="Name"
         android:ems="10"
         android:layout_below="@+id/textView2"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="14dp"
+
         android:layout_marginTop="12dp"
-        android:id="@+id/editText" />
+        android:id="@+id/editTextDescription" />
 
     <TextView
-        android:text="TextView"
+        android:text="Monto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/editText"
@@ -35,20 +43,16 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="Name"
+        android:inputType="number"
         android:ems="10"
         android:layout_below="@+id/textView3"
         android:layout_alignStart="@+id/editText"
         android:layout_marginTop="18dp"
-        android:id="@+id/monto" />
-
-    <TextView
-        android:text="TextView"
+        android:id="@+id/editTextMonto" />
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="27dp"
-        android:id="@+id/textView2"
-        android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/editText" />
+        android:text="Aceptar"
+        android:id="@+id/accept"/>
+
 </LinearLayout>
