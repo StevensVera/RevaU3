@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/decription"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        />
+    <TextView
+        android:id="@+id/monto"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        />
+    <TextView
+        android:id="@+id/accion"
+        android:layout_row="0"
+        android:layout_column="3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:gravity="right"
+        />
+
+    <TextView
+        android:id="@+id/fecha"
+        android:layout_row="1"
+        android:layout_column="3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_columnWeight="1"
+        />
+
+
+</GridLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageclient"
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:layout_rowSpan="2"
+        android:layout_row="0"
+        android:layout_column="0"
+
+        />
+
+     <TextView
+         android:id="@+id/nombreclient"
+         android:layout_row="0"
+         android:layout_column="1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_columnWeight="1"
+         />
+    <TextView
+        android:id="@+id/saldoclient"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        />
+    <TextView
+        android:id="@+id/fechaclient"
+        android:layout_row="1"
+        android:layout_column="3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_columnWeight="1"
+        />
+
+
+</GridLayout>
